@@ -150,6 +150,13 @@ public class CircleLink {
 	
 	public boolean joseph(int outSignal) {
 		int length=this.size();
+		if (length==0) {
+			
+			return false;
+			
+			
+		}
+		else {;}
 		outSignal=outSignal%length;
 		Node tmp=head.next;
 		/////new a doppelganger////////
